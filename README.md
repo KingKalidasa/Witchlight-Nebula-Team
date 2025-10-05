@@ -1,3 +1,18 @@
+# RiverHacks NASA Space Apps Challenge 2025
+## By Team Witchlight Nebula
+
+Our project allows Mission Planners at NASA and other commercial space companies to create complex schedules easier. 
+
+
+## Team Members
+
+- Josh Leon
+- Luis Quiñones
+- Bruno Rosado
+- Brittany Sifford
+- Valeria Soimaru
+- Sahara Tijol
+
 #  Project Nebula
 **"Like the stellar nurseries where stars are born, Project Nebula is NASA's growing ecosystem of intelligence."**
 
@@ -10,13 +25,13 @@ Developed for the NASA Space Apps Challenge
 
 ## Overview
 
-Project Nebula is a unified intelligence platform built on the Model Context Protocol (MCP) that connects NASA's diverse datasets, APIs, and analytical tools into a single, seamless environment. From real-time natural event tracking to weather forecasting and beyond, Nebula acts as a shared context fabric  enabling mission planners, engineers, and researchers to query, combine, and reason across information sources with unprecedented ease.
+Project Nebula is a unified intelligence platform built on the Model Context Protocol (MCP) that connects NASA's diverse datasets, APIs, and analytical tools into a single, seamless environment. From real-time natural event tracking to weather forecasting and beyond, Nebula acts as a shared context fabric enabling mission planners, engineers, and researchers to query, combine, and reason across information sources with unprecedented ease.
 
 ## The Vision
 
 NASA's mission-critical data spans dozens of systems: Earth observation satellites, atmospheric sensors, launch telemetry, planetary datasets, and more. Each system is rich with insights but isolated in its own silo. **Project Nebula transforms these scattered knowledge bases into an evolving constellation of interconnected intelligence.**
 
-Like the stellar nurseries where stars are born, Nebula represents NASA's growing ecosystem  a foundation for faster, more informed, and more collaborative decision-making across the entire agency.
+Like the stellar nurseries where stars are born, Nebula represents NASA's growing ecosystem a foundation for faster, more informed, and more collaborative decision-making across the entire agency.
 
 ---
 
@@ -52,7 +67,7 @@ Project Nebula implements the Model Context Protocol (MCP) to create a standardi
 - Query historical events and track ongoing phenomena
 - Correlate natural events with mission planning constraints
 
-####  Weather Intelligence
+#### Weather Intelligence
 - Real-time weather data for any global location
 - Launch window analysis and weather constraints
 - Environmental condition monitoring for field operations
@@ -210,13 +225,13 @@ Open http://localhost:3000 in your browser
 - **Extensible Tool Framework**: Ready for additional integrations
 
 ### Roadmap
-- = **NASA Earth Data**: Satellite imagery and atmospheric data
-- = **Launch Library**: Historical and upcoming launch data
-- = **Planetary Data System**: Mars, Moon, and deep space datasets
-- = **ISS Telemetry**: International Space Station real-time data
-- = **Hubble/JWST**: Space telescope observation data
-- = **NOAA Integration**: Advanced weather and ocean data
-- = **Copernicus Program**: European Space Agency Earth observation
+-  **NASA Earth Data**: Satellite imagery and atmospheric data
+-  **Launch Library**: Historical and upcoming launch data
+-  **Planetary Data System**: Mars, Moon, and deep space datasets
+-  **ISS Telemetry**: International Space Station real-time data
+-  **Hubble/JWST**: Space telescope observation data
+-  **NOAA Integration**: Advanced weather and ocean data
+-  **Copernicus Program**: European Space Agency Earth observation
 
 ---
 
@@ -238,7 +253,25 @@ Open http://localhost:3000 in your browser
 
 ---
 
-## NASA Space Apps Challenge
+## Run instructions: 
+1. cd to frontend directory.
+2. npm install (or shortcut npm i)
+3. create .env file and add (with correct keys in place of HIDDEN)
+```
+MCP_URL=http://localhost:3000/mcp
+ANTHROPIC_API_KEY=HIDDEN
+CLAUDE_MODEL=claude-sonnet-4-20250514
+CLAUDE_MAX_TOKENS=200
+```
+4. Open another terminal and cd to mcp-server.
+5. npm install
+6. create .env file and add 
+```
+SERPAPI_KEY=HIDDEN
+NASA_API_KEY=HIDDEN
+```
+7. in both terminals, enter: ```npm run dev```
 
-Project Nebula demonstrates the power of unified data access for space exploration and Earth science. By implementing the Model Context Protocol, we've created a foundation that can scale from individual researcher queries to agency-wide intelligence operations.
+You can now open localhost:3001 in your browser (double-check the output from terminal-frontend)
 
+To close the servers ```CTRL-C```
