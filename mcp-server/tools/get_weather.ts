@@ -2,7 +2,7 @@
 // Purpose: Defines and registers a tool to query weather data for the MCP server.
 // ------------------------------------------------------------------
 
-import { z } from "zod"; // zod is used to define and validate input/output schemas
+import { z, number, date, string } from "zod"; // zod is used to define and validate input/output schemas
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { getJson } from "serpapi";
 import dotenv from 'dotenv';
@@ -50,7 +50,7 @@ export function register(server: McpServer) {
  let output;
 
   if (body && body.temp) {
-    output = { result: body.temp };
+    output = { result: body.temperature };
   } else {
     output = { result: "not found" };
   }
