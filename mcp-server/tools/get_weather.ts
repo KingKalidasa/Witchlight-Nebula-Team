@@ -16,13 +16,17 @@ export function register(server: McpServer) {
     "get_weather", // internal name used by MCP 
     {
       title: "Weather Query Tool", // human-readable name
-      description: "take location by name and day (YYYY-MM-DD) to get historical temperature average in Fahrenheit", 
+      description: "take location by name and day (YYYY-MM-DD) to get weather conditions in Fahrenheit", 
       
       inputSchema: z.object({
         location_name: z.string(),
         date_YYYYMMDD: z.date()
       }).shape,
-      outputSchema: z.object({ result: z.number() }).shape, // output will contain a "result" number
+      outputSchema: z.object({ 
+        temperature: z.number(), 
+        winds: z.string(),
+        precipitation: z.string()
+      }).shape, 
     },
     
     async ({ location_name, date_YYYYMMDD }) => {
@@ -49,8 +53,12 @@ export function register(server: McpServer) {
  const body = (json as any)?.answer_box;
  let output;
 
-  if (body && body.temp) {
-    output = { result: body.temperature };
+  if (body) {
+    output = { 
+      temperature: body.temperature,
+      winds: body.wind,
+      precipitation: body.precipitation
+     };
   } else {
     output = { result: "not found" };
   }
