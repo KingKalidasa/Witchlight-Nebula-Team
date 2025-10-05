@@ -1,0 +1,43 @@
+Date,Day,Crew Member,Role,Shift Start (UTC),Shift End (UTC),Activity,Location,Notes
+10/6/2025,Monday,Taylor Morgan,Commander,6:00,12:00,Educational Outreach / Downlink,Service Module,Live downlink with schools (UTC midday)
+10/6/2025,Monday,Sofia Ramirez,Flight Engineer 1,12:00,18:00,Medical Checks,Service Module,
+10/6/2025,Monday,Wei Chen,Flight Engineer 2,18:00,0:00,Docking/Undocking Ops,Service Module,Monitor visiting vehicle telemetry
+10/6/2025,Monday,Arjun Singh,Mission Specialist,6:00,12:00,Private Time / Sleep,Service Module,
+10/6/2025,Monday,Lena Frimout,Payload Officer,12:00,18:00,Station Systems Check,Service Module,
+10/6/2025,Monday,Yuna Park,Flight Surgeon,18:00,0:00,Scientific Experiments (Payloads),Lab Module,
+10/7/2025,Tuesday,Taylor Morgan,Commander,12:00,18:00,Medical Checks,Service Module,
+10/7/2025,Tuesday,Sofia Ramirez,Flight Engineer 1,18:00,0:00,Docking/Undocking Ops,Service Module,Monitor visiting vehicle telemetry
+10/7/2025,Tuesday,Wei Chen,Flight Engineer 2,6:00,12:00,Private Time / Sleep,Service Module,
+10/7/2025,Tuesday,Arjun Singh,Mission Specialist,12:00,18:00,Station Systems Check,Service Module,
+10/7/2025,Tuesday,Lena Frimout,Payload Officer,18:00,0:00,Scientific Experiments (Payloads),Lab Module,
+10/7/2025,Tuesday,Yuna Park,Flight Surgeon,6:00,12:00,Robotic Arm Ops,Node 2,
+10/8/2025,Wednesday,Taylor Morgan,Commander,18:00,0:00,Docking/Undocking Ops,Service Module,Monitor visiting vehicle telemetry
+10/8/2025,Wednesday,Sofia Ramirez,Flight Engineer 1,6:00,12:00,Private Time / Sleep,Service Module,
+10/8/2025,Wednesday,Wei Chen,Flight Engineer 2,12:00,18:00,Station Systems Check,Service Module,
+10/8/2025,Wednesday,Arjun Singh,Mission Specialist,18:00,0:00,Scientific Experiments (Payloads),Lab Module,
+10/8/2025,Wednesday,Lena Frimout,Payload Officer,6:00,12:00,Robotic Arm Ops,Node 2,
+10/8/2025,Wednesday,Yuna Park,Flight Surgeon,12:00,18:00,EVA Prep / Suit Checks,Airlock,Suit checkout + tool prep
+10/9/2025,Thursday,Taylor Morgan,Commander,6:00,12:00,Private Time / Sleep,Service Module,
+10/9/2025,Thursday,Sofia Ramirez,Flight Engineer 1,12:00,18:00,Station Systems Check,Service Module,
+10/9/2025,Thursday,Wei Chen,Flight Engineer 2,18:00,0:00,Scientific Experiments (Payloads),Lab Module,
+10/9/2025,Thursday,Arjun Singh,Mission Specialist,6:00,12:00,Robotic Arm Ops,Node 2,
+10/9/2025,Thursday,Lena Frimout,Payload Officer,12:00,18:00,EVA Prep / Suit Checks,Airlock,Suit checkout + tool prep
+10/9/2025,Thursday,Yuna Park,Flight Surgeon,18:00,0:00,Maintenance & Repairs,Service Module,
+10/10/2025,Friday,Taylor Morgan,Commander,12:00,18:00,Station Systems Check,Service Module,
+10/10/2025,Friday,Sofia Ramirez,Flight Engineer 1,18:00,0:00,Scientific Experiments (Payloads),Lab Module,
+10/10/2025,Friday,Wei Chen,Flight Engineer 2,6:00,12:00,Robotic Arm Ops,Node 2,
+10/10/2025,Friday,Arjun Singh,Mission Specialist,12:00,18:00,EVA Prep / Suit Checks,Airlock,Suit checkout + tool prep
+10/10/2025,Friday,Lena Frimout,Payload Officer,18:00,0:00,Maintenance & Repairs,Service Module,
+10/10/2025,Friday,Yuna Park,Flight Surgeon,6:00,12:00,Crew Exercise,Service Module,
+10/11/2025,Saturday,Taylor Morgan,Commander,18:00,0:00,Scientific Experiments (Payloads),Lab Module,
+10/11/2025,Saturday,Sofia Ramirez,Flight Engineer 1,6:00,12:00,Robotic Arm Ops,Node 2,
+10/11/2025,Saturday,Wei Chen,Flight Engineer 2,12:00,18:00,EVA Prep / Suit Checks,Airlock,Suit checkout + tool prep
+10/11/2025,Saturday,Arjun Singh,Mission Specialist,18:00,0:00,Maintenance & Repairs,Service Module,
+10/11/2025,Saturday,Lena Frimout,Payload Officer,6:00,12:00,Crew Exercise,Service Module,
+10/11/2025,Saturday,Yuna Park,Flight Surgeon,12:00,18:00,Educational Outreach / Downlink,Service Module,Live downlink with schools (UTC midday)
+10/12/2025,Sunday,Taylor Morgan,Commander,6:00,12:00,Robotic Arm Ops,Node 2,
+10/12/2025,Sunday,Sofia Ramirez,Flight Engineer 1,12:00,18:00,EVA Prep / Suit Checks,Airlock,Suit checkout + tool prep
+10/12/2025,Sunday,Wei Chen,Flight Engineer 2,18:00,0:00,Maintenance & Repairs,Service Module,
+10/12/2025,Sunday,Arjun Singh,Mission Specialist,6:00,12:00,Crew Exercise,Service Module,
+10/12/2025,Sunday,Lena Frimout,Payload Officer,12:00,18:00,Educational Outreach / Downlink,Service Module,Live downlink with schools (UTC midday)
+10/12/2025,Sunday,Yuna Park,Flight Surgeon,18:00,0:00,Medical Checks,Service Module,
